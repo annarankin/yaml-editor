@@ -1,0 +1,40 @@
+product:
+  public_name: CM1 & Essentials of Digital Marketing
+  sku: '???'
+assignments:
+  - name: 'Certified Marketer Level 1 Assessment'
+    resource_name: 'Certified Marketer Level 1 (CM1)'
+    description:
+    relative_start_days:
+    relative_end_days:
+    locked: false
+  - name: 'CM1: Customer Insights Level 1'
+    resource_name: 'CCM1-Customer Insight-Level I'
+    description:
+    relative_start_days:
+    relative_end_days:
+    locked: false
+  - name: 'CM1: Creative Development Level 1'
+    resource_name: 'CM1-Creative Development-Level I'
+    description:
+    relative_start_days:
+    relative_end_days:
+    locked: false
+  - name: 'CM1: Marketing Channels Level 1'
+    resource_name: 'CM1-Marketing Channels-Level I'
+    description:
+    relative_start_days:
+    relative_end_days:
+    locked: false
+  - name: 'CM1: Metrics and Analytics Level 1'
+    resource_name: 'CM1-Metrics and Analytics-Level I'
+    description:
+    relative_start_days:
+    relative_end_days:
+    locked: false
+  - name: 'CM1: Marketing Technology Level 1'
+    resource_name: 'CM1-Marketing Technology-Level I'
+    description:
+    relative_start_days:
+    relative_end_days:
+    locked: false
