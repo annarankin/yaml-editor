@@ -3,12 +3,12 @@
     <h3>Product</h3>
     <p>
       <label>Public Name:
-        <input @input="$emit('onChange')" type="text" v-model="product.public_name">
+        <input @input="$emit('change')" type="text" v-model="product.public_name">
       </label>
     </p>
     <p>
       <label>SKU:
-        <input @input="$emit('onChange')" type="text" v-model="product.sku">
+        <input @input="$emit('change')" type="text" v-model="product.sku">
       </label>
     </p>
   </div>
