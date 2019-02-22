@@ -14,7 +14,7 @@
       @remove="removeAssignment"
     >
     </Assignment>
-    <button class="add-button" @click="$emit('addAssignment')">Add Assignment</button>
+    <button class="add-button" @click="$emit('add-assignment')">Add Assignment</button>
   </div>
 </template>
 
@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
   .product-edit {
     font-family:Arial, Helvetica, sans-serif;
     width: 450px;

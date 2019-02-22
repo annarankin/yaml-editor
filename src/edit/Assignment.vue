@@ -42,7 +42,7 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
   .assignment-display {
     width: 100%;
     text-align: left;

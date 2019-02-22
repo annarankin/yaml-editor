@@ -5,9 +5,9 @@
       <product-edit
         :product="data.product"
         :assignments="data.assignments"
-        :removeAssignment="removeAssignment"
-        :onChange="onChange"
-        @addAssignment="addAssignment"
+        :remove-assignment="removeAssignment"
+        :on-change="onChange"
+        @add-assignment="addAssignment"
       >
       </product-edit>
 
@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style lang="sass">
+<style lang="scss">
   .main {
     & * { box-sizing: border-box; }
 

@@ -14,7 +14,9 @@ class Loader {
   }
 
   _storedData() {
-    return YAML.parse(window.localStorage.getItem(STORAGE_KEY))
+    const existingData = window.localStorage.getItem(STORAGE_KEY)
+    if (!existingData) { return null }
+    return YAML.parse(existingData)
   }
 }
 
